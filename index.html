@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit Using JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="keyscontainer">
+        <div class="key" data-key="65">
+            <h2>A</h2><span>High Plate</span>
+        </div>
+        <div class="key" data-key="83">
+            <h2>S</h2><span>Low Plate</span>
+        </div>
+        <div class="key" data-key="68">
+            <h2>D</h2><span>Regular Bass</span>
+        </div>
+        <div class="key" data-key="70">
+            <h2>F</h2><span>Low Base</span>
+        </div>
+        <div class="key" data-key="71">
+            <h2>G</h2><span>Metal</span>
+        </div>
+    </div>
+
+    <audio src="/drum audio/high plate.mp3"   data-key="65"></audio>
+    <audio src="/drum audio/low plate.mp3"    data-key="83"></audio>
+    <audio src="/drum audio/Regular bass.mp3" data-key="68"></audio>
+    <audio src="/drum audio/low drum.mp3"     data-key="70"></audio>
+    <audio src="/drum audio/metal.mp3"        data-key="71"></audio>
+
+    <script src="logic.js"></script>
+</body>
+</html>
